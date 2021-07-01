@@ -1,0 +1,12 @@
+.postHeader{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+}
+@media (min-width:500px) {
+    .postHeader{
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
